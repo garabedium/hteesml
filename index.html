@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-54M0N9D4W1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-54M0N9D4W1');
+  </script>  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="HTeesML lifestyle, wellness and performance wear. HTML t-shirts for the masses.">
+  <title>HTeesML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+  <style>
+    /* Reset */
+    html {
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul, a {
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+    }
+
+    ol, ul {
+      list-style: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    /* HTeesML */
+    body {
+      padding: 1rem;
+    }
+
+    body, h1 {
+      font-family: 'Archivo Black';
+    }
+
+    h1 {
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .product-cta {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      text-decoration: none;
+      color: #000000;
+      background-size: 200% auto;
+      background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #ff8300 100%);
+      text-align: center;
+      border-radius: 8px;
+      padding: 14px 0;
+      width: 200px;
+      transition: 0.5s;
+      text-transform: uppercase;
+    }
+    .product-cta:hover {
+      background-position: right center;
+      text-shadow: 1px 1px 1px #ffffff;
+    }
+    .product-tiles {
+      display: grid;
+      max-width: 800px;
+      margin: 20px auto;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 1rem;
+      justify-content: center;
+    }
+    .product-tile {
+      border: solid 1px #d9d9d9;
+      border-radius: 8px;
+    }
+    .product-tile img {
+      vertical-align: middle;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
+  <h1>HTeesML</h1>
+  <a href="https://my-store-d74521.creator-spring.com/" class="product-cta">Shop Now</a>
+  <div class="product-tiles">
+    <a href="https://my-store-d74521.creator-spring.com/" class="product-tile"><img srcset="img/bstrong-500.jpg 500w, img/bstrong-800.jpg 800w"></a>
+    <a href="https://my-store-d74521.creator-spring.com/" class="product-tile"><img srcset="img/style-womens-comfort-500.jpg 500w, img/style-womens-comfort-800.jpg 800w"></a>
+    <a href="https://my-store-d74521.creator-spring.com/" class="product-tile"><img srcset="img/sup-500.jpg 500w, img/sup-800.jpg 800w"></a>
+    <a href="https://my-store-d74521.creator-spring.com/" class="product-tile"><img srcset="img/div-way-500.jpg 500w, img/div-way-800.jpg 800w"></a>
+  </div>
 </body>
 </html>
